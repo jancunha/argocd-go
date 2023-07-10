@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  argocd-go:
+    image: jancunha/argocd-go:v1
+    ports:
+      - "8081:8080"
+    # env_file:
+    #   - var/wp.env
+    networks:
+      - argo
+    restart: always
+    # depends_on:
+    #   - ctr-db
+
+# volumes:
+#   db-vol: {}
+networks:
+  argo: {}
