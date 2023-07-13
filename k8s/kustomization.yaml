@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: jancunha/argocd-go
-  newTag: 0ac1a80b902228f774b37068c2a532e766b4847d
+  newTag: 63270d8b7a72170aef9932695cbcd8490a4b939e
